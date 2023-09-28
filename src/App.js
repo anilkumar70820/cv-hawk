@@ -21,7 +21,7 @@ function App() {
     // do(password = prompt('please enter your password')
     // )
     // while(password !== 'anil kumar')
-    Aos.init({ once: false, })
+    Aos.init({ once: true, })
     setTimeout(() => {
       setPreloader(false);
       document.body.classList.remove('overflow-hidden')

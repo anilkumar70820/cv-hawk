@@ -7,7 +7,7 @@ import half_circle from '../assets/images/svg/half_circle.svg'
 import box from '../assets/images/svg/box.svg'
 const HelpCenter = () => {
     return (
-        <section className='position-relative'>
+        <section className='position-relative' id='help_center'>
             <div className="ellipse help_center_abs1 d-lg-block d-none"></div>
             <div className='help_center_bg py-5'>
                 <div className="my_container py-2 my-4 position-relative">

@@ -3,7 +3,7 @@ import { Accordion } from 'react-bootstrap'
 
 const Faq = () => {
     return (
-        <section className='py-5 position-relative'>
+        <section className='py-5 position-relative'id='faq'>
             <div className='my_container faq_mb'>
                 <h2 className='headings text-center mb-5' data-aos="fade-right" data-aos-duration="1500">Frequently Asked Questions</h2>
                 <div className='d-flex justify-content-center' data-aos="zoom-in" data-aos-duration="1500">

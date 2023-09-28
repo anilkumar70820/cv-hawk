@@ -1,5 +1,4 @@
 import React, { useState } from 'react'
-import { Link } from 'react-router-dom'
 import logo from '../assets/images/webp/Frame 209 (1) 1.webp'
 import card_1 from '../assets/images/webp/hero_cards_1.webp'
 import card_2 from '../assets/images/webp/hero_cards_2.webp'
@@ -48,13 +47,13 @@ const Hero = () => {
             <header className='w-100'>
                 <div className='my_container'>
                     <nav className='d-flex justify-content-between align-items-center'>
-                        <img src={logo} alt="logo" />
+                        <img className='cursor_pointer' src={logo} alt="logo" />
                         <ul className={`${showNavbar ? 'd-flex align-items-center gap-4 mb-0 nav_sm p-0' : 'd-flex align-items-center gap-4 mb-0 nav_sm nav_show p-0'} `}>
                             <li className='d-sm-none d-block'><img src={logo} alt="logo" /></li>
-                            <li><Link onClick={() => setShowNavbar(true)} className='nav_links me-lg-3 link1'>Home</Link></li>
-                            <li><Link onClick={() => setShowNavbar(true)} className='nav_links me-lg-3 link1'>About</Link></li>
-                            <li><Link onClick={() => setShowNavbar(true)} className='nav_links me-lg-3 link1'>We’ll help you</Link></li>
-                            <li><Link onClick={() => setShowNavbar(true)} className='nav_links link1'>Testimonials</Link></li>
+                            <li><a href='#resume_templates' onClick={() => setShowNavbar(true)} className='nav_links me-lg-3 link1'>Home</a></li>
+                            <li><a href='#faq' onClick={() => setShowNavbar(true)} className='nav_links me-lg-3 link1'>About</a></li>
+                            <li><a href='#help_center' onClick={() => setShowNavbar(true)} className='nav_links me-lg-3 link1'>We’ll help you</a></li>
+                            <li><a href='#testimonials' onClick={() => setShowNavbar(true)} className='nav_links link1'>Testimonials</a></li>
                             <li className='d-sm-none d-block'><button className='buttons text_ffffff bg_btn'>Get in Touch</button></li>
                             <span title="close" className="ms-4 close_nav text-black fw-bold fs-1 d-lg-none" onClick={() => setShowNavbar(true)}>&times;</span>
                         </ul>

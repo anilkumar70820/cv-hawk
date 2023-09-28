@@ -12,6 +12,7 @@ import { LeftArrow, RightArrow } from './Icons'
 
 const OurClients = () => {
     const slider = React.useRef(null);
+    const slider2 = React.useRef(null);
     var clients = {
         dots: false,
         arrows: false,
@@ -57,10 +58,16 @@ const OurClients = () => {
     return (
         <section className='help_center_bg py-5'>
             <div className="my_container py-md-4 my-md-2 pb-4 pb-md-0 position-relative">
-                <div onClick={() => slider?.current?.slickPrev()} className='slider_arrow d-inline-block left_arrow_abs next_btn z-1'>
+                <div onClick={() => slider?.current?.slickPrev()} className='cursor_pointer slider_arrow d-inline-block left_arrow_abs next_btn z-1 d-sm-block d-none'>
                     <LeftArrow />
                 </div>
-                <div onClick={() => slider?.current?.slickNext()} className='slider_arrow d-inline-block right_arrow_abs prev_btn z-1'>
+                <div onClick={() => slider?.current?.slickNext()} className='cursor_pointer slider_arrow d-inline-block right_arrow_abs prev_btn z-1 d-sm-block d-none'>
+                    <RightArrow />
+                </div>
+                <div onClick={() => slider2?.current?.slickPrev()} className='cursor_pointer slider_arrow d-inline-block left_arrow_abs next_btn z-1 d-sm-none d-block'>
+                    <LeftArrow />
+                </div>
+                <div onClick={() => slider2?.current?.slickNext()} className='cursor_pointer slider_arrow d-inline-block right_arrow_abs prev_btn z-1 d-sm-none d-block'>
                     <RightArrow />
                 </div>
                 <h2 className='headings text-center mb-5 pb-3'data-aos="fade-right" data-aos-duration="1500"><span className='position-relative'>What <span className='what_bg d-lg-block d-none'><img src={quotes} alt="quetos" /></span></span> our Clients Say</h2>
@@ -208,7 +215,7 @@ const OurClients = () => {
                         </div>
                     </div>
                 </Slider>
-                <Slider {...clients}  ref={slider} className='clients d-sm-none d-block'>
+                <Slider {...clients}  ref={slider2} className='clients d-sm-none d-block'>
                     <div className='d-flex justify-content-center' data-aos="zoom-in" data-aos-duration="1500">
                         <div>
                             <div className='comment_box mb-4 position-relative'>

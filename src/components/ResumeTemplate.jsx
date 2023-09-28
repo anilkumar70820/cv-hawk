@@ -51,7 +51,7 @@ const ResumeTemplate = () => {
         ]
     }
     return (
-        <section className='py-5 overflow-hidden position-relative z-1'>
+        <section className='py-5 overflow-hidden position-relative z-1' id='resume_templates'>
             <div className="ellipse resume_template_abs1 z-n1 d-md-block d-none"></div>
             <div className="ellipse resume_template_abs2 z-n1 d-lg-block d-none"></div>
             <div className="my_container py-md-5 my-md-5">

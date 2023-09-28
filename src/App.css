@@ -588,7 +588,12 @@ div ::-webkit-scrollbar {
 .link:hover:after {
   transform: scaleX(1);
 }
-
+.icons{
+  transition: all 400ms linear;
+}
+.icons:hover{
+  transform: translateY(-8px);
+}
 /* =======Footer end====== */
 /* ========Media Quries========= */
 @media (max-width:992px) {
