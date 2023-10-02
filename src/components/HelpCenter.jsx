@@ -10,13 +10,13 @@ const HelpCenter = () => {
         <section className='position-relative' id='help_center'>
             <div className="ellipse help_center_abs1 d-lg-block d-none"></div>
             <div className='help_center_bg py-5'>
-                <div className="my_container py-2 my-4 position-relative">
+                <div className="my_container py-2 my-md-4 position-relative">
                     <img className='help_dot_abs d-md-block d-none' src={dot} alt="dot" />
                     <img className='help_box_abs d-md-block d-none' src={box} alt="box" />
                     <Row className='align-items-center'>
-                        <Col md={6}>
+                        <Col md={6} className='mb-4 mb-md-0'>
                             <h2 data-aos="fade-right" data-aos-duration="1500" className='headings mb-4'>Powerful Tools to Create <span className='d-md-block h2_img text_F36A3E'> Your Standout CV</span></h2>
-                            <p data-aos="fade-right" data-aos-duration="1500" data-aos-delay="500" className='paragraphs'>Customize your CV to reflect your<span className='fw-semibold'> unique personality</span> and professional brand. Choose from a wide range of <span className='fw-semibold'> professionally designed</span> templates and layouts, allowing you to find the <span className='fw-semibold'> perfect style</span> that aligns with your industry and career goals.</p>
+                            <p data-aos="fade-right" data-aos-duration="1500" data-aos-delay="500" className='paragraphs opacity_08'>Customize your CV to reflect your<span className='fw-semibold'> unique personality</span> and professional brand. Choose from a wide range of <span className='fw-semibold'> professionally designed</span> templates and layouts, allowing you to find the <span className='fw-semibold'> perfect style</span> that aligns with your industry and career goals.</p>
                         </Col>
                         <Col md={6} data-aos="zoom-in" data-aos-duration="1500">
                             <img className='w-100' src={girl_img} alt="girl" />
@@ -27,14 +27,15 @@ const HelpCenter = () => {
             </div>
             <div className='my_container my-md-5 py-5 position-relative'>
                 <div className="ellipse help_center_abs2 d-lg-block d-none"></div>
-                <Row className='align-items-center my-md-5 py-md-3'>
+                <Row className='align-items-center my-md-5 py-md-3 flex-md-row flex-column-reverse'>
                     <Col md={6} data-aos="zoom-in" data-aos-duration="1500">
                         <img className='w-100' src={calender} alt="calender" />
+                        <div className='d-md-none d-block mt-4' data-aos="fade-left" data-aos-duration="1500" data-aos-delay="500"><button className='buttons bg_btn text_ffffff'>Book a Call</button></div>
                     </Col>
-                    <Col md={6}>
+                    <Col md={6} className='mb-4 mb-md-0'>
                         <h2 data-aos="fade-left" data-aos-duration="1500" className='headings mb-3'>We’ll help you</h2>
-                        <p data-aos="fade-left" data-aos-duration="1500" data-aos-delay="300" className='paragraphs mb-4 pb-3'>Once you've booked a session, a confirmation email will be sent to the provided email address, containing all the necessary details, including the date, time, and instructions for the session.</p>
-                        <div data-aos="fade-left" data-aos-duration="1500" data-aos-delay="500"><button className='buttons bg_btn text_ffffff'>Book a Call</button></div>
+                        <p data-aos="fade-left" data-aos-duration="1500" data-aos-delay="300" className='paragraphs mb-4 pb-3 opacity_08'>Once you've booked a session, a confirmation email will be sent to the provided email address, containing all the necessary details, including the date, time, and instructions for the session.</p>
+                        <div className='d-md-block d-none' data-aos="fade-left" data-aos-duration="1500" data-aos-delay="500"><button className='buttons bg_btn text_ffffff'>Book a Call</button></div>
                     </Col>
                 </Row>
             </div>

@@ -93,7 +93,12 @@
   color: var(--text-F36A3E);
 }
 
-
+.opacity_09{
+  opacity: 0.9 !important;
+}
+.opacity_08{
+  opacity: 0.8 !important;
+}
 
 .buttons {
   padding: 17px 38px;
@@ -124,7 +129,6 @@
   font-weight: 400;
   color: var(--text-000000);
   line-height: 154%;
-  opacity: 0.8;
 }
 
 .footer_links {
@@ -588,12 +592,15 @@ div ::-webkit-scrollbar {
 .link:hover:after {
   transform: scaleX(1);
 }
-.icons{
+
+.icons {
   transition: all 400ms linear;
 }
-.icons:hover{
+
+.icons:hover {
   transform: translateY(-8px);
 }
+
 /* =======Footer end====== */
 /* ========Media Quries========= */
 @media (max-width:992px) {
@@ -625,6 +632,13 @@ div ::-webkit-scrollbar {
     right: 10px;
     top: 10px;
     cursor: pointer;
+  }
+
+  .nav_lines {
+    width: 294px;
+    height: 0.3px;
+    background-color: #000000;
+    opacity: 0.2;
   }
 
   :root {
@@ -675,6 +689,7 @@ div ::-webkit-scrollbar {
     filter: blur(75px);
     border-radius: 278px;
   }
+
 }
 
 @media (max-width:576px) {
@@ -719,6 +734,16 @@ div ::-webkit-scrollbar {
 
   .width_sm_100 {
     width: 100%;
+  }
+}
+
+@media (min-width:1300px) {
+  .left_arrow_abs {
+    left: -5%;
+  }
+
+  .right_arrow_abs {
+    right: -5%;
   }
 }
 

@@ -58,7 +58,7 @@ const Footer = () => {
                         </div>
             </div>
             <div className="footer_line"></div>
-            <p className='ff_rubik fs_sm fw-medium text_ffffff text-center mb-0 mt-3 py-1'>Copyright@CVhawk2023</p>
+            <p className='ff_rubik fs_sm fw-medium text_ffffff text-center mb-0 mt-3 py-1 opacity-75'>Copyright@CVhawk2023</p>
         </footer>
     )
 }

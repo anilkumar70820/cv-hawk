@@ -76,7 +76,7 @@ const OurClients = () => {
                         <div className='d-flex justify-content-lg-between mb-4 pb-2'>
                             <div className='mt-lg-4 pt-lg-1 mt-0 pt-0' data-aos="fade-right" data-aos-duration="1500">
                                 <div className='comment_box mb-4 position-relative'>
-                                    <p className='paragraphs mb-0'>Sit urna ornare sed quam molestie sit placerat convallis. Ac condimentum mollis malesuada placerat in placerat</p>
+                                    <p className='paragraphs opacity_08 mb-0'>Sit urna ornare sed quam molestie sit placerat convallis. Ac condimentum mollis malesuada placerat in placerat</p>
                                     <img className='arrow_abs' src={down_arrow} alt="arrow" />
                                 </div>
                                 <div className='d-flex align-items-center pt-2 ms-4'>
@@ -89,7 +89,7 @@ const OurClients = () => {
                             </div>
                             <div className='ms-lg-0 ms-5 mt-lg-0 mt-4' data-aos="fade-down" data-aos-duration="1500">
                                 <div className='comment_box mb-4 position-relative'>
-                                    <p className='paragraphs mb-0'>Magna ipsum erat magna nulla auctor. Phasellus consectetur aliquam vel at non faucibus viverra.</p>
+                                    <p className='paragraphs opacity_08 mb-0'>Magna ipsum erat magna nulla auctor. Phasellus consectetur aliquam vel at non faucibus viverra.</p>
                                     <img className='arrow_abs' src={down_arrow} alt="arrow" />
                                 </div>
                                 <div className='d-flex align-items-center pt-2 ms-4'>
@@ -102,7 +102,7 @@ const OurClients = () => {
                             </div>
                             <div className='mt-5 d-lg-block d-none' data-aos="fade-left" data-aos-duration="1500">
                                 <div className='comment_box mb-4 position-relative'>
-                                    <p className='paragraphs mb-0'>Morbi leo ullamcorper in et viverra. Neque elit scelerisque purus praesent nulla ut a id.</p>
+                                    <p className='paragraphs opacity_08 mb-0'>Morbi leo ullamcorper in et viverra. Neque elit scelerisque purus praesent nulla ut a id.</p>
                                     <img className='arrow_abs' src={down_arrow} alt="arrow" />
                                 </div>
                                 <div className='d-flex align-items-center pt-2 ms-4'>
@@ -117,7 +117,7 @@ const OurClients = () => {
                         <div className='d-flex justify-content-between justify-content-lg-center'>
                             <div className='me-5 pe-3' data-aos="fade-right" data-aos-duration="1500">
                                 <div className='comment_box mb-4 position-relative'>
-                                    <p className='paragraphs mb-0'>Urna ac eu cras pellentesque scelerisque et. Vestibulum sed felis leo leo massa elementum sit praesent eu.</p>
+                                    <p className='paragraphs opacity_08 mb-0'>Urna ac eu cras pellentesque scelerisque et. Vestibulum sed felis leo leo massa elementum sit praesent eu.</p>
                                     <img className='arrow_abs' src={down_arrow} alt="arrow" />
                                 </div>
                                 <div className='d-flex align-items-center pt-2 ms-4'>
@@ -130,7 +130,7 @@ const OurClients = () => {
                             </div>
                             <div className='mt-3' data-aos="fade-left" data-aos-duration="1500">
                                 <div className='comment_box mb-4 position-relative'>
-                                    <p className='paragraphs mb-0'>Nibh in commodo faucibus tincidunt. Adipiscing lobortis est elit neque sem scelerisque tellus magna urna.</p>
+                                    <p className='paragraphs opacity_08 mb-0'>Nibh in commodo faucibus tincidunt. Adipiscing lobortis est elit neque sem scelerisque tellus magna urna.</p>
                                     <img className='arrow_abs' src={down_arrow} alt="arrow" />
                                 </div>
                                 <div className='d-flex align-items-center pt-2 ms-4'>
@@ -147,7 +147,7 @@ const OurClients = () => {
                         <div className='d-flex justify-content-lg-between mb-4 pb-2'>
                             <div className='mt-lg-4 mt-0 pt-lg-1 pt-0' data-aos="fade-right" data-aos-duration="1500">
                                 <div className='comment_box mb-4 position-relative'>
-                                    <p className='paragraphs mb-0'>Sit urna ornare sed quam molestie sit placerat convallis. Ac condimentum mollis malesuada placerat in placerat</p>
+                                    <p className='paragraphs opacity_08 mb-0'>Sit urna ornare sed quam molestie sit placerat convallis. Ac condimentum mollis malesuada placerat in placerat</p>
                                     <img className='arrow_abs' src={down_arrow} alt="arrow" />
                                 </div>
                                 <div className='d-flex align-items-center pt-2 ms-4'>
@@ -160,7 +160,7 @@ const OurClients = () => {
                             </div>
                             <div className='ms-lg-0 ms-5 mt-lg-0 mt-4' data-aos="fade-down" data-aos-duration="1500">
                                 <div className='comment_box mb-4 position-relative'>
-                                    <p className='paragraphs mb-0'>Magna ipsum erat magna nulla auctor. Phasellus consectetur aliquam vel at non faucibus viverra.</p>
+                                    <p className='paragraphs opacity_08 mb-0'>Magna ipsum erat magna nulla auctor. Phasellus consectetur aliquam vel at non faucibus viverra.</p>
                                     <img className='arrow_abs' src={down_arrow} alt="arrow" />
                                 </div>
                                 <div className='d-flex align-items-center pt-2 ms-4'>
@@ -173,7 +173,7 @@ const OurClients = () => {
                             </div>
                             <div className='mt-5 d-lg-block d-none' data-aos="fade-left" data-aos-duration="1500">
                                 <div className='comment_box mb-4 position-relative'>
-                                    <p className='paragraphs mb-0'>Morbi leo ullamcorper in et viverra. Neque elit scelerisque purus praesent nulla ut a id.</p>
+                                    <p className='paragraphs opacity_08 mb-0'>Morbi leo ullamcorper in et viverra. Neque elit scelerisque purus praesent nulla ut a id.</p>
                                     <img className='arrow_abs' src={down_arrow} alt="arrow" />
                                 </div>
                                 <div className='d-flex align-items-center pt-2 ms-4'>
@@ -188,7 +188,7 @@ const OurClients = () => {
                         <div className='d-flex justify-content-between justify-content-lg-center'>
                             <div className='me-5 pe-3' data-aos="fade-right" data-aos-duration="1500">
                                 <div className='comment_box mb-4 position-relative'>
-                                    <p className='paragraphs mb-0'>Urna ac eu cras pellentesque scelerisque et. Vestibulum sed felis leo leo massa elementum sit praesent eu.</p>
+                                    <p className='paragraphs opacity_08 mb-0'>Urna ac eu cras pellentesque scelerisque et. Vestibulum sed felis leo leo massa elementum sit praesent eu.</p>
                                     <img className='arrow_abs' src={down_arrow} alt="arrow" />
                                 </div>
                                 <div className='d-flex align-items-center pt-2 ms-4'>
@@ -201,7 +201,7 @@ const OurClients = () => {
                             </div>
                             <div className='mt-3' data-aos="fade-left" data-aos-duration="1500">
                                 <div className='comment_box mb-4 position-relative'>
-                                    <p className='paragraphs mb-0'>Nibh in commodo faucibus tincidunt. Adipiscing lobortis est elit neque sem scelerisque tellus magna urna.</p>
+                                    <p className='paragraphs opacity_08 mb-0'>Nibh in commodo faucibus tincidunt. Adipiscing lobortis est elit neque sem scelerisque tellus magna urna.</p>
                                     <img className='arrow_abs' src={down_arrow} alt="arrow" />
                                 </div>
                                 <div className='d-flex align-items-center pt-2 ms-4'>
@@ -219,7 +219,7 @@ const OurClients = () => {
                     <div className='d-flex justify-content-center' data-aos="zoom-in" data-aos-duration="1500">
                         <div>
                             <div className='comment_box mb-4 position-relative'>
-                                <p className='paragraphs mb-0'>Sit urna ornare sed quam molestie sit placerat convallis. Ac condimentum mollis malesuada placerat in placerat</p>
+                                <p className='paragraphs opacity_08 mb-0'>Sit urna ornare sed quam molestie sit placerat convallis. Ac condimentum mollis malesuada placerat in placerat</p>
                                 <img className='arrow_abs' src={down_arrow} alt="arrow" />
                             </div>
                             <div className='d-flex align-items-center pt-2 ms-4'>
@@ -234,7 +234,7 @@ const OurClients = () => {
                     <div className='d-flex justify-content-center' data-aos="zoom-in" data-aos-duration="1500">
                         <div>
                             <div className='comment_box mb-4 position-relative'>
-                                <p className='paragraphs mb-0'>Magna ipsum erat magna nulla auctor. Phasellus consectetur aliquam vel at non faucibus viverra.</p>
+                                <p className='paragraphs opacity_08 mb-0'>Magna ipsum erat magna nulla auctor. Phasellus consectetur aliquam vel at non faucibus viverra.</p>
                                 <img className='arrow_abs' src={down_arrow} alt="arrow" />
                             </div>
                             <div className='d-flex align-items-center pt-2 ms-4'>
@@ -249,7 +249,7 @@ const OurClients = () => {
                     <div className='d-flex justify-content-center' data-aos="zoom-in" data-aos-duration="1500">
                         <div>
                             <div className='comment_box mb-4 position-relative'>
-                                <p className='paragraphs mb-0'>Morbi leo ullamcorper in et viverra. Neque elit scelerisque purus praesent nulla ut a id.</p>
+                                <p className='paragraphs opacity_08 mb-0'>Morbi leo ullamcorper in et viverra. Neque elit scelerisque purus praesent nulla ut a id.</p>
                                 <img className='arrow_abs' src={down_arrow} alt="arrow" />
                             </div>
                             <div className='d-flex align-items-center pt-2 ms-4'>
@@ -264,7 +264,7 @@ const OurClients = () => {
                     <div className='d-flex justify-content-center' data-aos="zoom-in" data-aos-duration="1500">
                         <div>
                             <div className='comment_box mb-4 position-relative'>
-                                <p className='paragraphs mb-0'>Urna ac eu cras pellentesque scelerisque et. Vestibulum sed felis leo leo massa elementum sit praesent eu.</p>
+                                <p className='paragraphs opacity_08 mb-0'>Urna ac eu cras pellentesque scelerisque et. Vestibulum sed felis leo leo massa elementum sit praesent eu.</p>
                                 <img className='arrow_abs' src={down_arrow} alt="arrow" />
                             </div>
                             <div className='d-flex align-items-center pt-2 ms-4'>
@@ -279,7 +279,7 @@ const OurClients = () => {
                     <div className='d-flex justify-content-center' data-aos="zoom-in" data-aos-duration="1500">
                         <div>
                             <div className='comment_box mb-4 position-relative'>
-                                <p className='paragraphs mb-0'>Nibh in commodo faucibus tincidunt. Adipiscing lobortis est elit neque sem scelerisque tellus magna urna.</p>
+                                <p className='paragraphs opacity_08 mb-0'>Nibh in commodo faucibus tincidunt. Adipiscing lobortis est elit neque sem scelerisque tellus magna urna.</p>
                                 <img className='arrow_abs' src={down_arrow} alt="arrow" />
                             </div>
                             <div className='d-flex align-items-center pt-2 ms-4'>

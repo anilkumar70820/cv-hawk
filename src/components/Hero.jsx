@@ -49,12 +49,15 @@ const Hero = () => {
                     <nav className='d-flex justify-content-between align-items-center'>
                         <img className='cursor_pointer' src={logo} alt="logo" />
                         <ul className={`${showNavbar ? 'd-flex align-items-center gap-4 mb-0 nav_sm p-0' : 'd-flex align-items-center gap-4 mb-0 nav_sm nav_show p-0'} `}>
-                            <li className='d-sm-none d-block'><img src={logo} alt="logo" /></li>
+                            <li className='d-sm-none d-block mb-sm-0 mb-3'><img src={logo} alt="logo" /></li>
                             <li><a href='#resume_templates' onClick={() => setShowNavbar(true)} className='nav_links me-lg-3 link1'>Home</a></li>
+                            <li className='nav_lines d-lg-none'></li>
                             <li><a href='#faq' onClick={() => setShowNavbar(true)} className='nav_links me-lg-3 link1'>About</a></li>
+                            <li className='nav_lines d-lg-none'></li>
                             <li><a href='#help_center' onClick={() => setShowNavbar(true)} className='nav_links me-lg-3 link1'>We’ll help you</a></li>
+                            <li className='nav_lines d-lg-none'></li>
                             <li><a href='#testimonials' onClick={() => setShowNavbar(true)} className='nav_links link1'>Testimonials</a></li>
-                            <li className='d-sm-none d-block'><button className='buttons text_ffffff bg_btn'>Get in Touch</button></li>
+                            <li className='d-sm-none d-block mt-sm-0 mt-4 pt-sm-0 pt-3'><button className='buttons text_ffffff bg_btn'>Get in Touch</button></li>
                             <span title="close" className="ms-4 close_nav text-black fw-bold fs-1 d-lg-none" onClick={() => setShowNavbar(true)}>&times;</span>
                         </ul>
                         <div className='d-flex'>
@@ -79,19 +82,19 @@ const Hero = () => {
                     <img className='card_abs_3 d-md-block d-none' src={card_3} alt="cards" />
                     <img className='card_abs_4 d-md-block d-none' src={card_4} alt="cards" />
                     <h1 className='mb-3 ff_rubik fs_xl fw-semibold text_000000 text-center mt-5 mt-sm-0'>Unlock Your Potential with a <span className='d-md-block'> Professional <span className='h1_img'>CV Builder</span> </span></h1>
-                    <p className='pb-3 mb-4 paragraphs text-center'>Our user-friendly platform guides you through the process, allowing you to <span className='d-md-block'>customize every section to align with your unique career goals.</span></p>
+                    <p className='pb-3 mb-4 paragraphs text-center opacity-75'>Our user-friendly platform guides you through the process, allowing you to <span className='d-md-block'>customize every section to align with your unique career goals.</span></p>
                     <div className='d-flex justify-content-center gap-3'>
                         <button className='buttons bg_btn text_ffffff'>Get Started</button>
                         <button className='buttons bg-transparent text_F36A3E btn_border'>Watch Demo</button>
                     </div>
                 </div>
             </div>
-                    <Slider {...elegant} className='d-sm-none d-block mt-5'>
-                        <div className='d-flex justify-content-center'><img className='w-100' src={resume_clean} alt="elegent" /></div>
-                        <div className='d-flex justify-content-center'><img className='w-100' src={resume_clean} alt="elegent" /></div>
-                        <div className='d-flex justify-content-center'><img className='w-100' src={resume_clean} alt="elegent" /></div>
-                        <div className='d-flex justify-content-center'><img className='w-100' src={resume_clean} alt="elegent" /></div>
-                    </Slider>
+            <Slider {...elegant} className='d-sm-none d-block mt-5'>
+                <div className='d-flex justify-content-center'><img className='w-100' src={resume_clean} alt="elegent" /></div>
+                <div className='d-flex justify-content-center'><img className='w-100' src={resume_clean} alt="elegent" /></div>
+                <div className='d-flex justify-content-center'><img className='w-100' src={resume_clean} alt="elegent" /></div>
+                <div className='d-flex justify-content-center'><img className='w-100' src={resume_clean} alt="elegent" /></div>
+            </Slider>
         </section>
     )
 }
